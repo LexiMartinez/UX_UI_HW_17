@@ -88,3 +88,48 @@ span{
     justify-content: space-around;
     box-sizing: border-box;
 }
+
+.rights {
+    font-weight: bold;
+  }
+  
+  .rights > span {
+    color: black;
+  }
+  
+  .main-footer {
+    margin-top: 50px;
+    height: 100px;
+  }
+  
+  .footer-navigation {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .footer-navigation > ul {
+    list-style: none;
+  }
+  
+  .footer-navigation > ul > li {
+    display: left;  
+  }
+  
+  .footer-navigation > ul li a {
+    font-weight: bold;
+    opacity: 0.5;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-navigation > ul li a:hover,
+  .footer-navigation > ul li a:focus {
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+  }
+  
+  .footer-navigation > ul > li .active {
+    color:black;
+    opacity: 1;
+  }
